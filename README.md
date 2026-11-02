@@ -8,7 +8,7 @@
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 ## PROGRAM
-## Client
+## Server
 ```
 import socket
 
@@ -38,7 +38,7 @@ conn.close()
 s.close()
 ```
 
-## Server
+## Client
 ```
 import socket
 
